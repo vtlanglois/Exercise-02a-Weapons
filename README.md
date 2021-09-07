@@ -1,6 +1,8 @@
 # Exercise-02a-Weapons
 Exercise for MSCH-C220, 7 September 2021
 
+A demonstration of this exercise is available at [https://youtu.be/PnflBjoclOs](https://youtu.be/PnflBjoclOs)
+
 This exercise is the first opportunity for you to get your feet wet with Godot. It will explore the first step to creating an Arcade Space Shooter: firing weapons. In space shooter games, weapons can have many different attributes or characteristics, but we will be spawning one of the most basic types: an accelerating rocket.
 
 First, be sure you have downloaded and installed the appropriate version of [Godot 3.3.3](https://godotengine.org/download) for your computer. Most likely, you will want the 64-bit version (only install the 32-bit version if the 64-bit doesn't run).
