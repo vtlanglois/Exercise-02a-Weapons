@@ -1,13 +1,19 @@
 # Exercise-02a-Weapons
 Exercise for MSCH-C220, 7 September 2021
 
-This exercise will explore the first step to creating an Arcade Space Shooter: firing weapons. In space shooter games, weapons can have many different attributes or characteristics, but we will be spawning one of the most basic types: an accelerating rocket.
+This exercise is the first opportunity for you to get your feet wet with Godot. It will explore the first step to creating an Arcade Space Shooter: firing weapons. In space shooter games, weapons can have many different attributes or characteristics, but we will be spawning one of the most basic types: an accelerating rocket.
 
-Begin by Forking this repository. Check that it has been forked successfully; the repository should now read [your username]/Exercise-02a-Weapons
+First, be sure you have downloaded and installed the appropriate version of [Godot 3.3.3](https://godotengine.org/download) for your computer. Most likely, you will want the 64-bit version (only install the 32-bit version if the 64-bit doesn't run).
 
-Edit the LICENSE and replace BL-MSCH-C220-F21 with your full name. Commit your changes.
+Godot is currently not code-signed on the Mac, so if you are running it on a Mac, the first time you run it, you will need to right-click on the application and Open (and then indicate that you want to open it). Subsequently, it should open normally.
 
-Press the green "Code" button and select "Open in GitHub Desktop". Allow the browser to open (or install) GitHub Desktop. Once GitHub Desktop has loaded, you should see a window labeled "Clone a Repository" asking you for a Local Path on your computer where the project should be copied. Choose a location. Make sure the Local Path ends with "Exercise-02a-Weapons" and then press the "Clone" button. GitHub Desktop will now download a copy of the repository to the location you indicated.
+Fork this repository. When that process has completed, make sure that the top of the repository reads [your username]/Exercise-02a-Weapons. Edit the LICENSE and replace BL-MSCH-C220-F21 with your full name. Commit your changes.
+
+Press the green "Code" button and select "Open in GitHub Desktop". Allow the browser to open (or install) GitHub Desktop. Once GitHub Desktop has loaded, you should see a window labeled "Clone a Repository" asking you for a Local Path on your computer where the project should be copied. Choose a location where you will keep the repositories for this class. Make sure the Local Path ends with "Exercise-02a-Weapons" and then press the "Clone" button. GitHub Desktop will now download a copy of the repository to the location you indicated.
+
+Open Godot. In the Project Manager, tap the "Import" button. Tap "Browse" and navigate to the repository folder. Select the project.godot file and tap "Open".
+
+You should now see a main "Game" scene (res://Game.tscn), with a ship in the middle of the viewport. Run the game to see what has been provided.
 
 Your task is to create a Weapon scene (saved as res://Weapon.tscn) that represents a rocket sprite that accelerates off the screen. The Project comes with a rotating ship that will be responsible for instancing the Weapon, positioning and rotating it.
 
