@@ -5,7 +5,7 @@ var Weapon = null
 var Weapons = null
 
 func _ready():
-	#Weapon = preload("res://Weapon.tscn")
+	Weapon = preload("res://Weapon.tscn")
 	pass
 
 func _physics_process(_delta):
